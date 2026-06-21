@@ -12,6 +12,20 @@
 ## 📖 Descripción  
 Juego interactivo desarrollado en Kotlin con Jetpack Compose que reta a los jugadores a identificar si una imagen fue creada por IA o por un humano.
 
+## Arquitectura
+
+```mermaid
+flowchart TD
+    A[MainActivity - Jetpack Compose] --> B[PantallaJuego - UI Compose]
+    B --> C[ImagenAleatoria - IA vs Humano]
+    C --> D[Respuesta Usuario - Fake / Real]
+    D --> E[SistemaBlur - Puntuacion]
+    E --> F[AnimacionesDinamicas - Compose Animation]
+    A --> G[Google Sign-In - Autenticacion]
+    G --> H[Firebase Auth]
+    E --> I[Firebase Firestore - Puntuaciones Guardadas]
+```
+
 ## 🛠️ Funcionalidades  
 - Presentación aleatoria de imágenes generadas por IA y reales.  
 - Sistema de puntuación basado en respuestas correctas.  
@@ -34,20 +48,6 @@ Juego interactivo desarrollado en Kotlin con Jetpack Compose que reta a los juga
 👨‍💻 **Alejandro De Mendoza**
 
 ---
-
-## Arquitectura
-
-```mermaid
-flowchart TD
-    A[MainActivity - Jetpack Compose] --> B[PantallaJuego - UI Compose]
-    B --> C[ImagenAleatoria - IA vs Humano]
-    C --> D[Respuesta Usuario - Fake / Real]
-    D --> E[SistemaBlur - Puntuacion]
-    E --> F[AnimacionesDinamicas - Compose Animation]
-    A --> G[Google Sign-In - Autenticacion]
-    G --> H[Firebase Auth]
-    E --> I[Firebase Firestore - Puntuaciones Guardadas]
-```
 
 ## Autor
 
