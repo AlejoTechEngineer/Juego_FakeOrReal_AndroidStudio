@@ -1,4 +1,11 @@
+<div align="center">
+
 ## 3️⃣ **JUEGO FAKE OR REAL - ANDROID STUDIO**
+
+</div>
+
+---
+
 ```md
 # 🎮 Juego Fake or Real - Android Studio  
 
@@ -25,3 +32,12 @@ Juego interactivo desarrollado en Kotlin con Jetpack Compose que reta a los juga
 
 ## 📌 Autor  
 👨‍💻 **Alejandro De Mendoza**
+
+---
+
+## Autor
+
+**Alejandro De Mendoza**  
+Ingeniero Informático · Especialista en IA · Especialista en Ingeniería de Software · Máster en Arquitectura de Software
+
+[![GitHub](https://img.shields.io/badge/GitHub-AlejoTechEngineer-181717?style=for-the-badge&logo=github)](https://github.com/AlejoTechEngineer)
